@@ -45,6 +45,6 @@ class EntityDAO extends DAO
      * @return bool: if the entity have been deleted.
      */
     public function deleteEntity($id) {
-        return $this->queryBdd("DELETE FROM entity WHERE id = ", array($id));
+        return $this->queryBdd("DELETE FROM entity WHERE id = ?", array($id));
     }
 }
