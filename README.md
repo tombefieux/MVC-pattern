@@ -23,4 +23,4 @@ To connect this pattern to your database, enter the server path (localhost for e
 
 #### Use the DAO
 
-The proper way is to create a DAO for each entity. For example, you can create an EntityDAO object that's extended of the DAO object of the pattern. Then, you just have to use the functions of the DAO object. This example is available in the "model" folder to help you understand.
+The proper way to proceed is to create a DAO for each entity. For example, you can create an EntityDAO object that's extended of the DAO object of the pattern. Then, you just have to use the functions of the DAO object. This example is available in the "model" folder to help you understand.
